@@ -4,7 +4,6 @@
 
 ## Tools used:
 - Node
-- 
 
 ## Runing Project Locally
 - Clone to local machine: `git clone https://github.com/aadharkansal/potential-guide.git`
