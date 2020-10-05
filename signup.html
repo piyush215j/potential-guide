@@ -10,26 +10,43 @@
 
     <title>Newsletter Signup</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-
-  <body class="text-center">
-    <form action="/" method="post" class="form-signin">
-      <img class="mb-4" src="/images/logo.png" alt="" width="100" height="100">
-      <h1 class="h3 mb-3 font-weight-normal">Sign up to my Newsletter</h1>
-
-      <input type="text" name="fName" class="form-control top" placeholder="First Name" required autofocus>
-      <input type="text" name="lName" class="form-control middle" placeholder="Last Name" required>
-      <input type="email" name="email" class="form-control bottom" placeholder="Email address" required>
-
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me Up</button>
-      <p class="mt-5 mb-3 text-muted">&copy; Aadhar Kansal</p>
-    </form>
+ <div class="form">
+  <div class="tab-header">
+    <div class="active">Sign Up</div>
+    <div>Sign In</div>
+  </div>
+  <div class="tab-content">
+    <div class="tab-body active">
+      <div class="form-element">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="form-element">
+        <input type="text" placeholder="Username">
+      </div>
+      <div class="form-element">
+        <input type="password" placeholder="Password">
+      </div>
+      <div class="form-element">
+        <button>Sign Up</button>
+      </div>
+    </div>
+    
+    <div class="tab-body">
+      <div class="form-element">
+        <input type="text" placeholder="Email / Username">
+      </div>
+      <div class="form-element">
+        <input type="password" placeholder="Password">
+      </div>
+      <div class="form-element">
+        <input type="checkbox" id="remember_me">
+        <label for="remember_me">Remember me</label>
+      </div>
+      <div class="form-element">
+        <button>Sign In</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
